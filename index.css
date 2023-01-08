@@ -1,0 +1,42 @@
+body {
+	margin: 20px;
+	background-color: #273549;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow',Arial , sans-serif;
+	color: white;
+}
+
+h1 span {
+	color: #4adf86;
+}
+
+h3 {
+	color: #D5D4D8;
+}
+
+button{
+	margin-top: 10px;
+	color : white;
+	background-color: #10B981;
+	border-width: 0px;
+	border-radius: 3px;
+	padding-left: 15px;
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+}
+
+button:hover {
+	background: #087c55;
+}
+
+button:active {
+	background-color: #10B981;
+}
+
+p {
+	color : #55F991;
+}
+
+#input-el {
+	margin-top: 10px;
+}

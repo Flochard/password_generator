@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Passwords Generator</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+        <div class="title-div">
+            <h1>Generate <span>random passwords</span></h1>
+            <h3>You will never use an insecure password again</h3>
+        </div>
+        <div class="input-div">
+            <label for="lettersCheckbox-el">Only letters</label>
+            <input id="lettersCheckbox-el" type=checkbox value="letters" />
+            <label for="numbersCheckbox-el">Only numbers</label>
+            <input id="numbersCheckbox-el" type=checkbox value="numbers" />
+            <label for="specialCharactersCheckbox-el">Only special characters</label>
+            <input id="specialCharactersCheckbox-el" type=checkbox value="specialCharacters" />
+        </div>
+        <div class="length-div"> 
+            <label for="input-el">Choose a length for your passwords :</label>
+            <input id="input-el" type="text" label="Enter an integer" value="ex: 15" onfocus=clearDefaultInput() /> 
+        </div>
+        <button id="button-el" onclick=showPasswords()>Generate passwords</button>
+        <div class="passwords-div">
+            <p id="firstPassword-el"></p>
+            <p id="secondPassword-el"></p>
+            <script src="index.js"></script>
+            <noscript>Sorry, your browser does not support JavaScript!</noscript>
+        </div>
+	</body>
+</html>
